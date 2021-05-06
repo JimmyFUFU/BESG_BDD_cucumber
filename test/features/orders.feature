@@ -12,5 +12,5 @@ Feature: Get Orders
       | 4  | Rich        | 400   | 2021-05-02  |
     When I get orders by price from 500 to 1500
     Then the orders should have length 2
-    Then the entry 1 of orders should match: customer is Gin, price is 1000
-    Then the entry 2 of orders should match: customer is Tina, price is 700
+    Then the entry 1 of orders should match: customer is "Gin", price is "1000"
+    Then the entry 2 of orders should match: customer is "Tina", price is "700"
