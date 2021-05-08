@@ -1,6 +1,6 @@
 import {Theme} from "../src/theme";
 
-describe('xmas', function () {
+describe('background', function () {
   let theme = new Theme();
   let fake_get_today = jest.fn();
 
