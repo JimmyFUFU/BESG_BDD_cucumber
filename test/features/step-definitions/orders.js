@@ -24,4 +24,5 @@ Then('the entry {int} of orders should match: customer is {string}, price is {st
   let result = this.result[entry - 1]
   expect(result.customer).toBe(name);
   expect(result.price).toBe(price);
+  orders = [];
 });
